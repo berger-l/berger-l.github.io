@@ -1,0 +1,243 @@
+@media print {
+    video {
+        display: none;
+    }
+
+    .index-sections>img {
+        display: none;
+    }
+}
+
+h1 {
+    color: white;
+    background-color: #ceaa6e;
+    font-size: 3rem;
+    text-align: center;
+    font-family: 'Krub';
+    font-weight: 500;
+    padding: 5px;
+    letter-spacing: 5px;
+    text-transform: capitalize;
+    margin-bottom: 75px;
+    box-sizing: border-box;
+    box-shadow: 10px 10px 10px white;
+    position: relative;
+}
+
+h1 img {
+    position: absolute;
+    height: 185%;
+    top: -44px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    z-index: -1;
+    opacity: 50%;
+}
+
+@media (width >=800px) {
+    h1 img {
+        height: 275%;
+        top: -49px;
+    }
+}
+
+h1 #menu-img {
+    position: absolute;
+    height: 275%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: -49px;
+    z-index: -1;
+    opacity: 50%;
+}
+
+h2 {
+    color: white;
+    font-size: 2rem;
+    font-family: 'Krub';
+    font-weight: 500;
+    background-color: #ceaa6e;
+    width: fit-content;
+    letter-spacing: 3px;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+
+p {
+    font-size: 1.2rem;
+    font-family: 'Calibri Light';
+    color: white;
+}
+
+p::first-letter {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+body {
+    width: 80%;
+    margin: auto;
+    overflow-y: scroll;
+    padding: 1em;
+}
+
+html {
+    background-color: #252525;
+}
+
+.inline-list,
+.inline-list li {
+    display: inline;
+    padding: 0;
+}
+
+.inline-list {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.inline-list li,
+a {
+    font-size: 1.8rem;
+    font-family: 'Calibri Light';
+    font-weight: 300;
+    text-decoration: none;
+    margin: auto;
+    color: white;
+}
+
+a:hover {
+    color: #ceaa6e;
+    border: 1px solid #ceaa6e;
+    cursor: pointer;
+}
+
+a:active {
+    color: #ceaa6e;
+    border: 1px solid #ceaa6e;
+}
+
+footer,
+nav {
+    text-align: center;
+}
+
+footer {
+    font-family: Calibri;
+    font-size: .8rem;
+    color: white;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    background-image: url(../images/morales.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    box-sizing: border-box;
+    margin-top: 30px;
+}
+
+img:not(#logo, h1 img) {
+    border: 3px solid #ceaa6e;
+    padding: 5px;
+}
+
+.specific-menu-item {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    margin-bottom: 40px;
+}
+
+.specific-menu-item img {
+    width: 50%;
+    display: inline-block;
+    margin: 5px 20px 5px 5px;
+}
+
+.menu-item {
+    display: inline-block;
+    margin-bottom: 40px;
+    padding: 30px;
+    padding-top: 10px;
+}
+
+#s-d {
+    margin-bottom: 0px;
+}
+
+.menu-item img {
+    float: left;
+    display: inline-block;
+    margin-right: 1em;
+    height: 200px;
+}
+
+.menu-item span {
+    width: 400px;
+}
+
+.index-sections {
+    padding: 30px;
+    padding-top: 10px;
+    margin-bottom: 40px;
+}
+
+.index-sections div {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+div img {
+    float: left;
+    width: 50%;
+    max-height: 500px;
+    display: inline-block;
+    margin: 5px;
+    box-sizing: border-box;
+}
+
+.box-decor {
+    box-sizing: border-box;
+    border: 3px solid #ceaa6e;
+    background-color: #252525;
+    box-shadow: 10px 10px 10px #FFFFFF;
+    width: 100%;
+}
+
+#logo {
+    height: 255px;
+    width: auto;
+    border-radius: 50px;
+    box-shadow: 10px 10px 10px white, -10px -10px 10px white;
+}
+
+@media (width >=800px) {
+    #logo {
+        height: 310px;
+        width: auto;
+    }
+}
+
+.restaurant-header {
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border: 3px solid #ceaa6e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 45px;
+    box-sizing: border-box;
+}
+
+video {
+    width: 75%;
+    border: #ceaa6e 3px solid;
+    padding: 5px;
+}

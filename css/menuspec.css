@@ -1,0 +1,9 @@
+.aligned {
+    display: flex;
+    align-items: center;
+}
+
+img {
+    width: 50;
+    margin-top: 15px;
+}
