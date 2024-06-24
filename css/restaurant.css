@@ -71,10 +71,10 @@ p {
     color: white;
 }
 
-p::first-letter {
+/*p::first-letter {
     font-size: 1.5em;
     font-weight: bold;
-}
+}*/
 
 body {
     width: 80%;
